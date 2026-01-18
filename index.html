@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FoodHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>FoodHub</h1>
+    <p>Delicious food, delivered fast 🍽️</p>
+</header>
+
+<section class="menu">
+    <div class="card">
+        <h3>Pizza</h3>
+        <p>₹250</p>
+        <button onclick="addToCart(250)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <h3>Burger</h3>
+        <p>₹150</p>
+        <button onclick="addToCart(150)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <h3>Pasta</h3>
+        <p>₹200</p>
+        <button onclick="addToCart(200)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <h3>Cold Drink</h3>
+        <p>₹50</p>
+        <button onclick="addToCart(50)">Add to Cart</button>
+    </div>
+</section>
+
+<section class="cart">
+    <h2>Cart Total: ₹<span id="total">0</span></h2>
+    <button class="order">Place Order</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
